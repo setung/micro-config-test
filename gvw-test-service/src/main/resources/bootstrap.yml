@@ -1,0 +1,17 @@
+spring:
+  application:
+    name: good-vibe-works, common
+  profiles:
+    active: dev
+  cloud:
+    config:
+      uri: http://localhost:8071
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
+
+encrypt:
+  key: fje83Ki8403Iod87dne7Yjsl3THueh48jfuO9j4U2hf64Lo
