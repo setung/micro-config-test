@@ -5,7 +5,8 @@ spring:
     active: test
   cloud:
     config:
-      name:    common,good-vibe-works,  common2
+      name: common, good-vibe-works, common2, zcommon
+      allow-override: false
       uri: http://localhost:8071
 
 management:
