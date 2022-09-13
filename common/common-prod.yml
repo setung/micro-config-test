@@ -1,1 +1,2 @@
 service.name: common-prod
+service.env: prod

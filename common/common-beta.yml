@@ -1,1 +1,2 @@
 service.name: common-beta
+service.env: beta

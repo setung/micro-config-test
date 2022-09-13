@@ -1,1 +1,2 @@
 service.name: common-test
+service.env: test
