@@ -1,6 +1,5 @@
 package micro.gvwtestservice;
 
-import lombok.Data;
 import lombok.Getter;
 import lombok.Setter;
 import lombok.ToString;
@@ -19,4 +18,8 @@ public class ServiceConfig {
     private String env;
 
     private String description;
+
+    private Integer number;
+
+    private String email;
 }
