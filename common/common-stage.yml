@@ -1,2 +1,3 @@
 service.name: common-stage
 service.env: common stage
+service.number: 0

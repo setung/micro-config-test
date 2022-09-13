@@ -1,2 +1,3 @@
 service.name: good-vibe-works-prod
 service.env: gvw-prod
+service.email: gvw@gvw.com

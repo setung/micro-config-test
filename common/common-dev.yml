@@ -1,2 +1,3 @@
 service.name: common-dev
 service.env: common dev
+service.number: 0

@@ -1,2 +1,3 @@
 service.name: good-vibe-works-stage
 service.env: gvw-stage
+service.email: gvw@gvw.com
