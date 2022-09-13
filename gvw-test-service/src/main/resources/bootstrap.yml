@@ -1,10 +1,11 @@
 spring:
   application:
-    name: good-vibe-works, common
+    name: good-vibe-works
   profiles:
-    active: dev
+    active: test
   cloud:
     config:
+      name: common, good-vibe-works, common2
       uri: http://localhost:8071
 
 management:

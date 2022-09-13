@@ -1,5 +1,6 @@
 package micro.gvwtestservice;
 
+import lombok.Data;
 import lombok.RequiredArgsConstructor;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
@@ -22,6 +23,11 @@ public class ConfigController {
 
     @GetMapping("/description")
     public String getServiceDescription() {
-        return serviceConfig.getEnv();
+        return serviceConfig.getDescription();
+    }
+
+    @GetMapping("/all")
+    public String getAll() {
+        return serviceConfig.toString();
     }
 }
