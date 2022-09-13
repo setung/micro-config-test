@@ -1,2 +1,2 @@
 service.name: common-stage
-service.env: stage
+service.env: common stage

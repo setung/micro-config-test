@@ -1,1 +1,2 @@
-service.descript: common2-beta config 파일
+service.name: common-beta
+service.env: common beta

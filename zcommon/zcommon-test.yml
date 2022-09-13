@@ -1,0 +1,2 @@
+service.name: z common-test
+service.env: z test
