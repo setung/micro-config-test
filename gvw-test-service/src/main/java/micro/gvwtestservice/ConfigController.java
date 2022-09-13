@@ -19,4 +19,9 @@ public class ConfigController {
     public String getServiceEnv() {
         return serviceConfig.getEnv();
     }
+
+    @GetMapping("/description")
+    public String getServiceDescription() {
+        return serviceConfig.getEnv();
+    }
 }

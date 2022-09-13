@@ -14,4 +14,6 @@ public class ServiceConfig {
     private String name;
 
     private String env;
+
+    private String description;
 }
