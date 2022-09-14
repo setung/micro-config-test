@@ -1,0 +1,3 @@
+service.name = common default git
+service.env = common default git
+service.email = common@gvw.com default git
