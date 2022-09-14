@@ -5,11 +5,13 @@ spring:
   application:
     name: config-server
   profiles:
-    active:  git
+    active:  git, native
   cloud:
     config:
       server:
         encrypt.enabled: false
+        native:
+          search-locations: classpath:/config
         git:
           uri: https://github.com/setung/micro-config-test.git
           searchPaths: /**

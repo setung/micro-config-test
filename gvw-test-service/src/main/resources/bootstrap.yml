@@ -5,7 +5,7 @@ spring:
     active: dev
   cloud:
     config:
-      name: good-vibe-works, common, mysql
+      name:  good-vibe-works,common
       uri: http://localhost:8071
 
 management:
