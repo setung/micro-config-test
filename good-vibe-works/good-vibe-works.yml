@@ -1,3 +1,3 @@
 service.name: good-vibe-works-default
-service.env: gvw-default
+service.env: gvw-default - branch2
 service.email: gvw-default@gvw.com
