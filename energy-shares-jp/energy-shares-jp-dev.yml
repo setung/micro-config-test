@@ -1,1 +1,3 @@
 service.name: engergy-shares-jp-dev
+service.env: esjp-dev
+service.email: esjp@esjp.com

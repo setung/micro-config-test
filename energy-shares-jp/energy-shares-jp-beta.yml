@@ -1,1 +1,3 @@
 service.name: engergy-shares-jp-beta
+service.env: esjp-beta
+service.email: esjp@esjp.com

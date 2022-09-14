@@ -1,1 +1,3 @@
 service.name: engergy-shares-us-dev
+service.env: esus-dev
+service.email: esus@esus.com

@@ -1,1 +1,3 @@
 service.name: engergy-shares-us-stage
+service.env: esus-stage
+service.email: esus@esus.com

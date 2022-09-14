@@ -1,4 +1,4 @@
-package micro.gvwtestservice;
+package micro.gvwtestservice.config;
 
 import lombok.Getter;
 import lombok.Setter;
@@ -11,7 +11,7 @@ import org.springframework.context.annotation.Configuration;
 @Getter
 @Setter
 @ToString
-public class ServiceConfig {
+public class GvwConfig {
 
     private String name;
 
